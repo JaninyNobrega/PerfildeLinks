@@ -1,0 +1,94 @@
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+main{
+    display: block;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para o bloco */
+}
+
+.inicio{
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    height: auto;
+    margin: 0;
+    padding: 50px; /* Adiciona um espaçamento interno ao bloco */
+}
+
+.inicio img{
+    border-radius: 50%; /* Borda arredondada para a imagem */
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100px; /* Define a largura da imagem */
+    height: 100px; /* Define a altura da imagem */
+    display: block; /* Faz a imagem ser um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.inicio h1{
+    color: white; /* Define a cor do texto como branco */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 5px; /* Reduz o espaçamento inferior */
+    font-family: "Rowdies", sans-serif;
+} 
+
+.inicio h2{
+    color: yellowgreen; /* Define a cor do texto como branco */
+    text-align: center; /* Centraliza o texto */
+    font-size: 18px; /* Define o tamanho da fonte */
+    margin-top: 0px; /* Remove o espaçamento superior */
+    margin-bottom: 30px; /* Adiciona um espaçamento inferior ao texto */
+    font-family: "Rowdies", sans-serif;
+    
+}
+
+.inicio h3{
+    color: white;
+    text-align: center;
+    margin-top: 40px; /* Adiciona um espaçamento superior ao texto */
+    font-family: "Rowdies", sans-serif;
+}
+
+.inicio a{
+    color: white; /* Define a cor do texto como branco */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-size: 18px; /* Define o tamanho da fonte */
+    margin-top: 10px; /* Adiciona um espaçamento superior ao link */
+    display: block; /* Faz o link ser um bloco */
+    text-align: center; /* Centraliza o texto do link */
+    padding-bottom: 10px;
+    font-family: "Rowdies", sans-serif;
+}
+.inicio a:hover{ /* Efeito de hover para o link */
+    color: yellowgreen; /* Muda a cor do texto ao passar o mouse */
+    transition: color 0.3s; /* Transição suave para a mudança de cor */
+}
+
+.github, .linkedin, .instagram, .x{
+    color: white; /* Define a cor do texto como branco */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    text-align: center;
+    padding: 5px; /* Adiciona um espaçamento interno ao bloco */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-top: 25px; /* Adiciona um espaçamento superior ao bloco */
+}
+
+.github:hover, .linkedin:hover, .instagram:hover, .x:hover{  /* Efeito de hover para o bloco */
+    background-color: rgba(0, 0, 0, 0.9); /* Muda a cor de fundo ao passar o mouse */   
+    transition: background-color 0.3s; /* Transição suave para a mudança de cor */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Pacifico&family=Playwrite+MX+Guides&family=Rowdies:wght@300;400;700&display=swap');

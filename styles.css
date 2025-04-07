@@ -12,25 +12,25 @@ main{
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px; /* Borda arredondada */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para o bloco */
+    height: 85%;
 }
 
 .inicio{
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
     align-items: center;
-    height: auto;
     margin: 0;
-    padding: 50px; /* Adiciona um espaçamento interno ao bloco */
+    padding: 30px; /* Adiciona um espaçamento interno ao bloco */
 }
 
 .inicio img{
     border-radius: 50%; /* Borda arredondada para a imagem */
-    padding: 20px;
-    padding-left: 20px;
-    padding-right: 20px;    
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100px; /* Define a largura da imagem */
-    height: 100px; /* Define a altura da imagem */
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70px; /* Define a largura da imagem */
+    height: 70px; /* Define a altura da imagem */
     display: block; /* Faz a imagem ser um bloco */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
 }
@@ -40,16 +40,16 @@ main{
     text-align: center; /* Centraliza o texto */
     margin-bottom: 5px; /* Reduz o espaçamento inferior */
     font-family: "Rowdies", sans-serif;
+    font-size: 24px; /* Define o tamanho da fonte */
 } 
 
 .inicio h2{
     color: yellowgreen; /* Define a cor do texto como branco */
     text-align: center; /* Centraliza o texto */
-    font-size: 18px; /* Define o tamanho da fonte */
+    font-size: 14px; /* Define o tamanho da fonte */
     margin-top: 0px; /* Remove o espaçamento superior */
-    margin-bottom: 30px; /* Adiciona um espaçamento inferior ao texto */
-    font-family: "Rowdies", sans-serif;
-    
+    margin-bottom: 20px; /* Adiciona um espaçamento inferior ao texto */
+    font-family: "Rowdies", sans-serif;   
 }
 
 .inicio h3{
@@ -57,6 +57,7 @@ main{
     text-align: center;
     margin-top: 40px; /* Adiciona um espaçamento superior ao texto */
     font-family: "Rowdies", sans-serif;
+    font-size: 14px; /* Define o tamanho da fonte */
 }
 
 .inicio a{
@@ -68,6 +69,7 @@ main{
     text-align: center; /* Centraliza o texto do link */
     padding-bottom: 10px;
     font-family: "Rowdies", sans-serif;
+    font-size: 14px;
 }
 .inicio a:hover{ /* Efeito de hover para o link */
     color: yellowgreen; /* Muda a cor do texto ao passar o mouse */
@@ -82,7 +84,8 @@ main{
     padding: 5px; /* Adiciona um espaçamento interno ao bloco */
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    margin-top: 25px; /* Adiciona um espaçamento superior ao bloco */
+    margin-top: 20px; /* Adiciona um espaçamento superior ao bloco */
+    margin-bottom: 20px;
 }
 
 .github:hover, .linkedin:hover, .instagram:hover, .x:hover{  /* Efeito de hover para o bloco */

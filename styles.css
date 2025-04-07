@@ -92,3 +92,50 @@ main{
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Pacifico&family=Playwrite+MX+Guides&family=Rowdies:wght@300;400;700&display=swap');
+
+/* Estilos para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* Alinha os elementos verticalmente */
+        padding: 10px;
+    }
+
+    .inicio {
+        padding: 20px; /* Reduz o espaçamento interno */
+        width: 100%; /* Faz a div ocupar toda a largura */
+        max-width: 90%; /* Limita a largura máxima */
+    }
+
+    .inicio img {
+        width: 80px; /* Reduz o tamanho da imagem */
+        height: 80px;
+    }
+
+    .inicio h1, .inicio h2, .inicio h3 {
+        font-size: 16px; /* Reduz o tamanho das fontes */
+    }
+
+    .inicio a {
+        font-size: 14px; /* Ajusta o tamanho do texto dos links */
+    }
+}
+
+/* Estilos para telas menores que 480px (celulares pequenos) */
+@media (max-width: 480px) {
+    .inicio {
+        padding: 15px; /* Reduz ainda mais o espaçamento interno */
+    }
+
+    .inicio img {
+        width: 60px; /* Reduz ainda mais o tamanho da imagem */
+        height: 60px;
+    }
+
+    .inicio h1, .inicio h2, .inicio h3 {
+        font-size: 14px; /* Ajusta o tamanho das fontes */
+    }
+
+    .inicio a {
+        font-size: 12px; /* Ajusta o tamanho do texto dos links */
+    }
+}
